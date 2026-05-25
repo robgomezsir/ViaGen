@@ -1,0 +1,72 @@
+;
+; FBX 7.4.0 project file
+; Minimal stylized environment inspired by VIA:GEN
+;
+
+FBXHeaderExtension:  {
+  FBXHeaderVersion: 1003
+  FBXVersion: 7400
+}
+
+Objects:  {
+  Model: 1, "Model::Ground", "Mesh" {
+    Vertices: *12 {
+      a: -50,0,-50,50,0,-50,50,0,50,-50,0,50
+    }
+    PolygonVertexIndex: *6 {
+      a: 0,1,2,-3,0,2,3,-4
+    }
+  }
+
+  Model: 2, "Model::Portal", "Mesh" {
+    Vertices: *24 {
+      a:
+      -2,0,0,
+      2,0,0,
+      2,6,0,
+      -2,6,0,
+      -1.5,0.5,0,
+      1.5,0.5,0,
+      1.5,5.5,0,
+      -1.5,5.5,0
+    }
+    PolygonVertexIndex: *12 {
+      a:
+      0,1,2,-4,
+      4,5,6,-8
+    }
+  }
+
+  Model: 3, "Model::Rock_01", "Mesh" {
+    Vertices: *24 {
+      a:
+      0,0,0,
+      2,0,0,
+      1,3,1,
+      -1,2,0
+    }
+    PolygonVertexIndex: *12 {
+      a:
+      0,1,2,-4,
+      0,2,3,-4
+    }
+  }
+
+  Model: 4, "Model::Rock_02", "Mesh" {
+    Vertices: *24 {
+      a:
+      5,0,4,
+      8,0,4,
+      7,4,6,
+      4,2,5
+    }
+    PolygonVertexIndex: *12 {
+      a:
+      0,1,2,-4,
+      0,2,3,-4
+    }
+  }
+}
+
+Connections: {
+}
