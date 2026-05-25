@@ -10,7 +10,6 @@ namespace ViaGen.Editor
         private static string BackdropPath => ViaGenAssetPaths.ResourcesArtUiMenuBackdrop + ".png";
         private static string ConfigPath => ViaGenAssetPaths.ResourcesMainMenuConfig + ".asset";
 
-        [MenuItem("ViaGen/Assets/Setup Menu Assets")]
         public static void SetupMenuAssets()
         {
             ViaGenProjectStructure.CreateAllFolders();

@@ -11,7 +11,6 @@ namespace ViaGen.Editor
     /// </summary>
     public static class ViaGenSyncSourceAssets
     {
-        [MenuItem("ViaGen/Assets/Sync Source Assets From Repo Root")]
         public static void SyncFromRepoRoot()
         {
             ViaGenProjectStructure.CreateAllFolders();

@@ -69,7 +69,6 @@ namespace ViaGen.Editor
             ViaGenAssetPaths.CodeEditor
         };
 
-        [MenuItem("ViaGen/Setup/Create Project Folder Structure", priority = 0)]
         public static void CreateProjectFoldersMenu()
         {
             var created = CreateAllFolders();

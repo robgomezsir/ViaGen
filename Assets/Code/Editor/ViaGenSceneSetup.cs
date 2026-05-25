@@ -15,7 +15,6 @@ namespace ViaGen.Editor
 {
     public static class ViaGenSceneSetup
     {
-        [MenuItem("ViaGen/Setup/Create All Scenes")]
         public static void CreateAllScenes()
         {
             ViaGenProjectStructure.CreateAllFolders();
@@ -30,7 +29,6 @@ namespace ViaGen.Editor
             Debug.Log("[ViaGen] Cenas criadas em " + ViaGenAssetPaths.Scenes);
         }
 
-        [MenuItem("ViaGen/Setup/Full Project Setup")]
         public static void FullSetup()
         {
             ViaGenProjectStructure.CreateProjectFoldersMenu();

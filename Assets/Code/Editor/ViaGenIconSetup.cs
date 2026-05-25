@@ -16,7 +16,6 @@ namespace ViaGen.Editor
         private const int GridCols = 6;
         private const int GridRows = 7;
 
-        [MenuItem("ViaGen/Assets/Setup Icons And App Icon")]
         public static void SetupIconsMenu() => SetupIconsInternal();
 
         public static void SetupIconsInternal()

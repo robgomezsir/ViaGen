@@ -1,5 +1,14 @@
 # VIA:GEN — Unity Assets
 
+## Menu **ViaGen** não aparece?
+
+1. Abra **Window > General > Console** e veja se há erros em vermelho nos scripts.
+2. Clique com o botão direito em `Assets/Code` → **Reimport**.
+3. Menu **Assets > Refresh** (Ctrl+R).
+4. O menu fica na barra superior: **ViaGen** (entre Component e Window).
+
+Se ainda não aparecer: feche e reabra o projeto no Unity Hub.
+
 ## Corrigir pastas no Project
 
 Se a hierarquia não aparecer corretamente no Unity:
